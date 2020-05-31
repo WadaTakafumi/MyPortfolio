@@ -37,7 +37,10 @@
           </button>
         </a>
        </div>
+       <input type="text" placeholder="Keywords" class="bg-gray-300 p-2 text-xs rounded w-full mt-5 focus:outline-none" v-model="keyword" @keypress.enter="$router.push('/search/' + keyword)"> <!-- ここを追加 -->
+     
      </div>
+      
    </header>
    <main class="w-full mt-10">
      <nuxt />
@@ -60,7 +63,12 @@ export default {
     faCode () {
       return faCode
     }
-  }
+  },
+  data() {
+    return {
+      keyword: ''
+    }
+  },
 }
 </script>
 
