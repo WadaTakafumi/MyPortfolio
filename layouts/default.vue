@@ -8,7 +8,7 @@
          <div class="bg-center bg-cover w-16 h-16 mr-2 rounded-full shadow photo"></div>
          <div>
            <h1 class="font-bold">Takafumi Wada</h1>
-           <p class="text-xs text-justify">GeekSalonメンターの和田です。<br>主にUnityを用いたゲーム,ARの開発をしています。</p>
+           <p class="text-xs text-justify">GeekSalonメンターの和田隆史です。<br>主にUnityを用いたゲーム,ARの開発をしています。</p>
          </div>
        </div>
        <div class="flex justify-around mt-5 text-xs">
