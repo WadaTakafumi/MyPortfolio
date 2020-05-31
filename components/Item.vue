@@ -21,7 +21,9 @@
         :key="tag.sys.id"
         class="list-none text-xs m-1 bg-gray-200 p-1 rounded cursor-pointer"
       >
+      <nuxt-link :to="'/tag/'+tag.sys.id">
         {{ tag.fields.name }}
+      </nuxt-link>
       </li>
     </div>
   </div>
